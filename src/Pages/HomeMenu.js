@@ -14,8 +14,8 @@ function HomeMenu() {
         Escolha uma das opções abaixo<br/>
         Tempo de seleção: 3 segundos<br/>
     </p>
-    <div class = "card-grid">
-      <div className = "card">
+    <div class = "card-grid ">
+      <div className = "card firstElement">
         <div className = "card-body card-image">
           <img src="exemploFoto1.jpg"/>
         </div>
@@ -24,7 +24,7 @@ function HomeMenu() {
         </div>
       </div>
 
-      <div className = "card">
+      <div className = "card lastElement">
         <div className = "card-body card-image">
           <img src="exemploFoto2.jpg"/>
         </div>
