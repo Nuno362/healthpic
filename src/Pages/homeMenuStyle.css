@@ -20,13 +20,21 @@ p {
 }
 .card-grid {
     display: grid;
-    grid-template-columns: 300px;
-    gap: 5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "a b c d";
+    gap: 1rem;
+
+
+
+    border: 2px solid;
+    border-color: red;
 }
+
+
 
 .card{
     --padding: 1rem;
-    background: white;
+    background-color: blue;
     border: 1px solid #777;
     width: 300px;
     height: 300px;
@@ -35,6 +43,16 @@ p {
     box-shadow: 0 2px 5px 0 rgba(0,0,0, .2);
     overflow: hidden;
 }
+.firstElement{
+
+    grid-area: b;
+}
+
+.lastElement{
+
+    grid-area: c;
+}
+
 
 .card-body{
     padding: var(--padding);
@@ -55,13 +73,15 @@ p {
 }
 
 .card-footer{
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-align: center;
+    
     
 }
 
 .btn {
-    font-size: 1rem;
-    
+    font-size: xx-large;
+    color: white;
+    text-decoration: none;
 }
 
