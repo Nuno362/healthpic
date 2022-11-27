@@ -1,0 +1,50 @@
+[
+ {
+    "id": 1,
+    "title": "Comer",
+    "image": "/imagensDiárias/comer.png",
+    "som": ""
+ },
+ {
+    "id": 2,
+    "title": "Jardim",
+    "image": "/imagensDiárias/jardim.png",
+    "som": ""
+ },
+ {
+    "id": 3,
+    "title": "Cão",
+    "image": "/imagensDiárias/cão.png",
+    "som": ""
+ },
+ {
+    "id": 4,
+    "title": "TV",
+    "image": "/imagensDiárias/tv.png",
+    "som": ""
+ },
+ {
+    "id": 5,
+    "title": "Casa de banho",
+    "image": "/imagensDiárias/wc.png",
+    "som": ""
+ },
+ {
+    "id": 6,
+    "title": "Desenhar",
+    "image": "/imagensDiárias/desenhar.png",
+    "som": ""
+ },
+ {
+    "id": 7,
+    "title": "Vizinha",
+    "image": "/imagensDiárias/vizinha.png",
+    "som": ""
+ },
+ {
+    "id": 8,
+    "title": "Vídeos",
+    "image": "/imagensDiárias/vídeos.png",
+    "som": ""
+ }
+]
