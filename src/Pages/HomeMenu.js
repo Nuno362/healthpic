@@ -6,7 +6,7 @@ function HomeMenu() {
     <>
     <header className = "homeMenuHeader">
         <div className ="homeMenuLogo">
-          <img className='logo' src='logo192.png' alt='logo'/>
+          <img className='logo-homeMenu' src='logo192.png' alt='logo'/>
         </div>
     </header>
     <p className = "homeMenuText">
@@ -14,13 +14,13 @@ function HomeMenu() {
         Escolha uma das opções abaixo<br/>
         Tempo de seleção: 3 segundos<br/>
     </p>
-    <div class = "card-grid ">
+    <div className = "card-grid ">
       <div className = "card firstElement">
         <div className = "card-body card-image">
           <img src="exemploFoto1.jpg"/>
         </div>
         <div className = "card-footer">
-          <Link className ="btn" to ="/MenuDiario" >Ações Diárias</Link>
+          <Link className ="btn-homeMenu" to ="/MenuDiario" >Ações Diárias</Link>
         </div>
       </div>
 
@@ -29,7 +29,7 @@ function HomeMenu() {
           <img src="exemploFoto2.jpg"/>
         </div>
         <div className = "card-footer">
-          <Link className ="btn" to ="/MenuEmocoes" >Emoções</Link>
+          <Link className ="btn-homeMenu" to ="/MenuEmocoes" >Emoções</Link>
         </div>
       </div>
     </div>

@@ -1,0 +1,26 @@
+
+
+
+.homeMenuHeader{
+    background-color: aquamarine;
+    position: relative;
+}
+
+.menuDiarioLogo{
+
+    text-align: right;
+
+}
+
+.menuDiarioLogo >img{
+    position: absolute;
+        top: 5px;
+        right: 15px;
+}
+
+.logo-menuDiario{
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: red;
+}

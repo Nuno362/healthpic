@@ -6,11 +6,9 @@
     padding: 0.5rem;
     text-align: right;
     
-
 }
 
-.logo{
-    
+.logo-homeMenu{
     width: 40px;
     height: 40px;
 }
@@ -25,12 +23,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "a b c d";
     gap: 10rem;
-
-
-
 }
-
-
 
 .card{
     --padding: 1rem;
@@ -43,6 +36,7 @@ p {
     box-shadow: 0 2px 5px 0 rgba(0,0,0, .2);
     overflow: hidden;
 }
+
 .firstElement{
 
     grid-area: b;
@@ -52,7 +46,6 @@ p {
 
     grid-area: c;
 }
-
 
 .card-body{
     padding: var(--padding);
@@ -75,11 +68,10 @@ p {
 .card-footer{
     margin-top: 2rem;
     text-align: center;
-    
-    
+     
 }
 
-.btn {
+.btn-homeMenu {
     font-size: x-large;
     color: white;
     text-decoration: none;
