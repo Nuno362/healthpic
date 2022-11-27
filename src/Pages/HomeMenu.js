@@ -1,6 +1,7 @@
 import { Link} from "react-router-dom"
 import  "./homeMenuStyle.css"
 
+
 function HomeMenu() {
   return (
     <>
@@ -33,9 +34,9 @@ function HomeMenu() {
         </div>
       </div>
     </div>
-
     </>
   )
 }
 
 export default HomeMenu
+
