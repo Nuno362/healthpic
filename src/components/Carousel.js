@@ -1,56 +1,46 @@
 import {useState} from "react"
 import Slider from "react-slick";
 import records from "./recordsAçõesDiárias.json"
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
-const record = records;
 
-function Carousel(){
 
-    const NextArrow = ({onClick}) => {
-        return (
-           <div className="arrow next" onClick={onClick}> 
+function Carousel(Index){
 
-           </div> 
-        );
-    };
+    const record = records;
+    let itemEscolhidoArray = Object.values(Index);
+    let itemEscolhido = itemEscolhidoArray[0];
+    console.log(itemEscolhido);
 
-    const PrevArrow = ({onClick}) => {
-        return (
-           <div className="arrow prev" onClick={onClick}>
-            
-           </div> 
-        );
-    };
-
-    const [imageIndex, setImageIndex] = useState()
-
-    const settings ={
+    const settings = {
+        
         infinite: true,
-        lazyLoad: true,
-        speed: 300,
-        centerMode: true,
-        centerPadding: 0,
-        nextArrow:<NextArrow />,
-        prevArrow:<PrevArrow />,
-        beforeChange: (current, next) => setImageIndex(next),
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1
+      };
 
-    };
-
+ 
     return (
         <>
+        <h1>Funciona</h1>
         <Slider {...settings}>
-            {record.map((item,idx)=>{
-                return(
-                    <>
-                    <div className={ item.id === imageIndex ? "slide activeSlide" : "slide"}>
-                        
-                    </div>
-                    </>
-                )
-            })}
+        {record.map((item)=>(
+           <div className = "card">
+            <div className = "card-top">
+                <img src={item.image} alt ="fazer" />
+                <hi>{item.title}</hi>
+            </div>
+            <div className="card-bottom">
+                <h3>{item.title}</h3>
+            </div>
+           </div> 
+        ))}
         </Slider>
         </>
     );
+
 }
 
 export default Carousel;

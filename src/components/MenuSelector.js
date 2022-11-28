@@ -16,9 +16,7 @@ function MenuSelector() {
    
     
        
-    useEffect(() =>{
-        console.log('use effect ran')
-    })
+ 
     
     if(view){
         return (
