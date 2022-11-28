@@ -1,48 +1,48 @@
 [
  {
-    "id": 1,
+    "id": 0,
     "title": "Comer",
     "image": "/imagensDiárias/comer.png",
     "som": ""
  },
  {
-    "id": 2,
+    "id": 1,
     "title": "Jardim",
     "image": "/imagensDiárias/jardim.png",
     "som": ""
  },
  {
-    "id": 3,
+    "id": 2,
     "title": "Cão",
     "image": "/imagensDiárias/cão.png",
     "som": ""
  },
  {
-    "id": 4,
+    "id": 3,
     "title": "TV",
     "image": "/imagensDiárias/tv.png",
     "som": ""
  },
  {
-    "id": 5,
+    "id": 4,
     "title": "Casa de banho",
     "image": "/imagensDiárias/wc.png",
     "som": ""
  },
  {
-    "id": 6,
+    "id": 5,
     "title": "Desenhar",
     "image": "/imagensDiárias/desenhar.png",
     "som": ""
  },
  {
-    "id": 7,
+    "id": 6,
     "title": "Vizinha",
     "image": "/imagensDiárias/vizinha.png",
     "som": ""
  },
  {
-    "id": 8,
+    "id": 7,
     "title": "Vídeos",
     "image": "/imagensDiárias/vídeos.png",
     "som": ""
