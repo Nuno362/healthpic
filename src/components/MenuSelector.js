@@ -31,7 +31,7 @@ function MenuSelector() {
                                 <img src={item.image}/>
                             </div>
                             <div className = "card-footer-MenuDiario">
-                                <Link className ="btn2-menuDiario" to ="/DisplayDiario" >{item.title}</Link>
+                                <Link className ="btn2-menuDiario" to = {`/MenuDiario/${item.id}`} >{item.title}</Link>
                             </div>
                             </div>
                         )
@@ -61,7 +61,7 @@ function MenuSelector() {
                                     <img src={item.image}/>
                                 </div>
                                 <div className = "card-footer-MenuDiario">
-                                    <Link className ="btn2-menuDiario" to ="/DisplayDiario" >{item.title}</Link>
+                                    <Link className ="btn2-menuDiario" to = {`/MenuDiario/${item.id}`} >{item.title}</Link>
                                 </div>
                             </div>
                         )

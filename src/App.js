@@ -24,7 +24,7 @@ function App() {
 
       <Route path = "/MenuEmocoes" element = {<MenuEmocoes />} />
 
-      <Route path = "/DisplayDiario" element = {<DisplayDiario />} />
+      <Route path = "/MenuDiario/:productId" element = {<DisplayDiario />} />
 
       <Route path = "/DisplayEmocoes" element = {<DisplayEmocoes />} />
 
