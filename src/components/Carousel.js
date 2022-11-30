@@ -28,11 +28,11 @@ function Carousel(Index){
         <h1>Funciona</h1>
         <Slider {...settings}>
         {record.map((item)=>(
-           <div className = "card">
+           <div key={item.id} className = "card">
             <div className = "card-top">
                 <h3>{item.title}</h3>
                 <img src={item.image} alt ="fazer" />
-                <hi>{item.title}</hi>
+                <h1>{item.title}</h1>
             </div>
             <div className="card-bottom">
                 <button>Ativar som </button>

@@ -31,7 +31,7 @@
     margin-left:20px;
 
     font-size: medium;
-    background-color: blue;
+    background-color: rgb(70, 144, 194);
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
@@ -40,8 +40,210 @@
 Fim Home-----------------------------
 */
 /*
-Início Home-------------------------
+Início HomeMenu-------------------------
+*/
+.homeMenuLogo{
+    text-align: right;
+    margin-top:-25px;
+    margin-right: 20px;
+    
+}
+
+.logo-homeMenu{
+    width: 80px;
+    height: 80px;
+}
+
+p {
+
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "a b c d";
+    gap: 8rem;
+}
+
+.card{
+    --padding: 1rem;
+    background-color: rgb(70, 144, 194);
+    border: 1px solid #777;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, .2);
+    overflow: hidden;
+    position: relative;
+}
+
+.firstElement{
+
+    grid-area: b;
+}
+
+.lastElement{
+
+    grid-area: c;
+}
+
+.card-body{
+    padding: var(--padding);
+    padding-bottom: 0;
+}
+
+.card-body.card-image {
+    padding: 0;
+    overflow: hidden;
+}
+
+.card-body.card-image > img {
+    display: block;
+    width: 100%;
+    max-height: 300px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.card-footer{
+    margin-top: 2rem;
+    text-align: center;
+     
+}
+
+.btn-homeMenu {
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    position: static;
+}
+
+.btn-homeMenu::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+/*
+Fim HomeMenu-----------------------------
 */
 /*
-Fim Home-----------------------------
+Início MenuDiario-------------------------
+*/
+
+
+
+
+
+.menuDiarioLogo{
+
+    text-align: right;
+
+}
+
+.menuDiarioLogo >img{
+    position: absolute;
+        top: 5px;
+        right: 15px;
+}
+
+.logo-menuDiario{
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: red;
+}
+
+
+
+
+.card-grid-MenuDiario {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "a b c d e";
+    
+}
+
+.card-MenuDiario{
+
+    background-color: rgb(70, 144, 194);;
+    border: 1px solid #777;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, .2);
+    overflow: hidden;
+    position: relative;
+}
+
+.card-body-MenuDiario{
+
+    padding-bottom: 0;
+}
+
+.card-body-MenuDiario {
+    padding: 0;
+    overflow: hidden;
+}
+
+.card-body-MenuDiarioLink{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.card-body-MenuDiario > img {
+    display: block;
+    width: 100%;
+    max-height: 150px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.card-footer-MenuDiario{
+    margin-top: 1rem;
+    text-align: center;
+     
+}
+
+.btn2-menuDiario {
+    font-size: smaller;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    position: static;
+}
+
+.btn2-menuDiario::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.btn-menuD {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    margin-left:10px;
+    margin-top: 30px;
+    font-size: medium;
+    background-color: rgb(70, 144, 194);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+/*
+Fim MenuDiario-----------------------------
 */

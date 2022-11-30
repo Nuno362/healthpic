@@ -1,17 +1,18 @@
 import { Link} from "react-router-dom"
-import  "./homeMenuStyle.css"
+
+import "./styles.css"
 
 
 function HomeMenu() {
   return (
     <>
-    <header className = "homeMenuHeader">
+    <header className = "homeMenuHeader1">
         <div className ="homeMenuLogo">
           <img className='logo-homeMenu' src='healthPic_logo.svg' alt='logo'/>
         </div>
     </header>
     <p className = "homeMenuText">
-        Menu <br/>
+        <b>Menu</b><br/>
         Escolha uma das opções abaixo<br/>
         Tempo de seleção: 3 segundos<br/>
     </p>

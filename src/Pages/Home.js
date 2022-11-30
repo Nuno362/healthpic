@@ -19,7 +19,7 @@ function Home() {
         Expresse o que está a sentir e o que deseja fazer no momento!<br/>
         <br/>
         <br/>
-        Este site está criado de forma a usar os seus olhos.<br/>
+        Este site está criado de forma a usar os seus <b>olhos</b>.<br/>
         Para selecionar olhe para o botão desejado durante 3 segundos.<br/>
     </p>
     <Link className ="homeButton" to ="/HomeMenu" >Começar agora</Link>
