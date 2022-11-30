@@ -30,11 +30,12 @@ function Carousel(Index){
         {record.map((item)=>(
            <div className = "card">
             <div className = "card-top">
+                <h3>{item.title}</h3>
                 <img src={item.image} alt ="fazer" />
                 <hi>{item.title}</hi>
             </div>
             <div className="card-bottom">
-                <h3>{item.title}</h3>
+                <button>Ativar som </button>
             </div>
            </div> 
         ))}

@@ -2,7 +2,15 @@ import records from "./recordsAçõesDiárias.json"
 import { Link} from "react-router-dom"
 import {useState,useEffect} from 'react'
 
+
+
 function MenuSelector() {
+
+
+
+
+
+
     const partOne = records.slice(0,4);
     const partTwo = records.slice(4,8);
     const [view,setView] = useState(true);
