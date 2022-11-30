@@ -12,7 +12,7 @@ function MenuDiario() {
           <Link className ="btn-menuD" to ="/HomeMenu" >Menu</Link>
         </div>
         <div className ="menuDiarioLogo">
-          <img className='logo-menuDiario' src='logo192.png' alt='logo'/>
+          <img className='logo-menuDiario' src='healthPic_logo.svg' alt='logo'/>
         </div>
     </header>
     <p className = "menuDiarioText">

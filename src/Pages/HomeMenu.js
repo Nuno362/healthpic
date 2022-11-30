@@ -7,7 +7,7 @@ function HomeMenu() {
     <>
     <header className = "homeMenuHeader">
         <div className ="homeMenuLogo">
-          <img className='logo-homeMenu' src='logo192.png' alt='logo'/>
+          <img className='logo-homeMenu' src='healthPic_logo.svg' alt='logo'/>
         </div>
     </header>
     <p className = "homeMenuText">
