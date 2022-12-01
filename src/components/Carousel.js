@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import records from "./recordsAçõesDiárias.json"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-
 import {FaArrowRight, FaArrowLeft } from "react-icons/fa"
 
 
@@ -62,14 +61,19 @@ function Carousel(Index){
         <Slider {...settings}>
         {record.map((item)=>(
             <>
+            <div className="class_cartoes">
             <div key = {item.id + 100} className={item.id === imageIndex ? "active-text-Description" :"text-Description"}>
                 <p>Está<br/><b>{item.title}</b></p>
                 {console.log(item.id,imageIndex)}
             </div>
            <div key={item.id} className = {item.id === imageIndex ? "card-Carousel active-card-Carousel" :"card-Carousel"}>
                 <img className = "card-top" src={item.image} alt ="fazer" />
+           </div>
+           <div key ={item.id + 200} className= {item.id === imageIndex ? "active-card-bottom" :"card-bottom"}>
+           <button>Ativar som </button>
            </div> 
-           <button key ={item.id + 200} className= {item.id === imageIndex ? "card-bottom active-card-bottom" :"card-bottom"}>Ativar som </button>
+           
+           </div>
            </>
         ))}
         </Slider>
