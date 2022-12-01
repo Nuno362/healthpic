@@ -150,8 +150,8 @@ Início MenuDiario-------------------------
 
 .menuDiarioLogo >img{
     position: absolute;
-        top: 5px;
-        right: 15px;
+    top: 5px;
+    right: 15px;
 }
 
 .logo-menuDiario{
@@ -165,6 +165,7 @@ Início MenuDiario-------------------------
 
 
 .card-grid-MenuDiario {
+    padding-top: 30px;
     margin-left: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -246,4 +247,43 @@ Início MenuDiario-------------------------
 }
 /*
 Fim MenuDiario-----------------------------
+*/
+/*
+Início DisplayDiario-----------------------------
+*/
+.text-Description {
+    text-align: center;
+}
+
+.card-Carousel{
+
+    border: 2px solid rgb(2, 2, 2);
+    width: 280px;
+    height: 150px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0, .2);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.card-top{
+ 
+    max-height: 150px;
+    aspect-ratio: 16 / 9;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+
+}
+.card-bottom{
+    position: relative;
+    text-align: center;
+    left:100px;
+    top:-10px;
+}
+
+/*
+Fim DisplayDiario-----------------------------
 */
