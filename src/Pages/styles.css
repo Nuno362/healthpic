@@ -53,34 +53,45 @@ Início HomeMenu-------------------------
 */
 .homeMenuLogo{
     text-align: right;
-    margin-top:-25px;
-    margin-right: 20px;
-    
+    margin-top:-1rem;
+    margin-right: 1.5rem;
+      
 }
 
 .logo-homeMenu{
-    width: 80px;
-    height: 80px;
+    width: 12rem;
+    height: 8rem;
 }
-
-p {
-
+.homeMenuText{
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 8rem;
+    line-height: 0.5rem;
 }
+.p1{
+    font-size: 1.7rem;
+}
+.p2{
+    font-size: 1.5rem;
+}
+.p3{
+    font-size: 1.2rem;
+}
+
+
 .card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "a b c d";
-    gap: 8rem;
+    gap: 10rem;
+    margin-left: 1rem;
 }
 
 .card{
     --padding: 1rem;
     background-color: rgb(70, 144, 194);
     border: 1px solid #777;
-    width: 220px;
-    height: 220px;
+    width: 30rem;
+    height: 30rem;
     border-radius: 50%;
     border: none;
     box-shadow: 0 2px 5px 0 rgba(0,0,0, .2);
@@ -123,7 +134,7 @@ p {
 }
 
 .btn-homeMenu {
-    font-size: x-large;
+    font-size: 4rem;
     color: white;
     text-decoration: none;
     position: static;

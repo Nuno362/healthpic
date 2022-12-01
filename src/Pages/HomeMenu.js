@@ -6,16 +6,17 @@ import "./styles.css"
 function HomeMenu() {
   return (
     <>
-    <header className = "homeMenuHeader1">
+    <header className = "homeMenuHeader">
         <div className ="homeMenuLogo">
           <img className='logo-homeMenu' src='healthPic_logo.svg' alt='logo'/>
         </div>
     </header>
-    <p className = "homeMenuText">
-        <b>Menu</b><br/>
-        Escolha uma das opções abaixo<br/>
-        Tempo de seleção: 3 segundos<br/>
-    </p>
+    <div className = "homeMenuText">
+    <p className="p1"><b >Menu</b></p>
+    <p className="p2">Escolha uma das opções abaixo</p>
+    <p className="p3">Tempo de seleção: 3 segundos</p>
+    </div>
+ 
     <div className = "card-grid ">
       <div className = "card firstElement">
         <div className = "card-body card-image">
