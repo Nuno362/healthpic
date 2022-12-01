@@ -4,37 +4,46 @@
 
 .logo {
     position: relative;
-    width: 130px;
-    height: 100px; 
-    margin-left:10px;
-    margin-top: -20px;
+    width: 10rem;
+    height: 9rem; 
+    margin-left:2.5rem;
+    margin-top: -1rem;
 
 
 }
 .logoText {
-    font-size: 13px;
+    font-size: 1.3rem;
     text-align: left;
-    margin-left:20px;
-    margin-top: -35px;
+    margin-left:3.3rem;
+    margin-top: -2.7rem;
+}
+
+.homeContainer{
+    display:block;
+    padding-bottom: 5rem;
 }
 .homeText {
+    font-size:2rem;
     text-align: left;
-    margin-left:20px;
-    margin-top: 55px;
+    margin-left:3.3rem;
+    margin-top: 17rem;
 
 
 }
 
 .homeButton {
+    
     text-align: center;
     text-decoration: none;
-    margin-left:20px;
-
-    font-size: medium;
+    margin-left:3.3rem;
+    margin-top: 3rem;
+    font-size: 3rem;
     background-color: rgb(70, 144, 194);
     color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 1rem 2rem;
+    border-radius: 2.6rem;
+    display:inline-block;
+
 }
 /*
 Fim Home-----------------------------

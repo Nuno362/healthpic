@@ -13,6 +13,7 @@ function Home() {
           <img className='logo' src='healthPic_logo.svg' alt="let's talk, in pictures!"/> 
         </div>
     </header>
+    <div className='homeContainer'>
     <p className = "logoText">let's talk, in pictures!</p>
     <p className = "homeText">
         Aqui ajudamos-lhe a comunicar com os seus familiares e amigos!<br/>
@@ -22,8 +23,11 @@ function Home() {
         Este site está criado de forma a usar os seus <b>olhos</b>.<br/>
         Para selecionar olhe para o botão desejado durante 3 segundos.<br/>
     </p>
+
     <Link className ="homeButton" to ="/HomeMenu" >Começar agora</Link>
 
+    
+    </div>
     </>
   )
 }
