@@ -251,8 +251,14 @@ Fim MenuDiario-----------------------------
 /*
 Início DisplayDiario-----------------------------
 */
+.active-text-Description{
+    text-align: center;
+}
+
 .text-Description {
     text-align: center;
+    position:absolute;
+    display: hide;
 }
 
 .card-Carousel{
