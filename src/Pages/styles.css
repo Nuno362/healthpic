@@ -364,7 +364,7 @@ Início DisplayDiario-----------------------------
 }
 .card-bottom{
     visibility: hidden;
-
+    cursor: pointer;
 }
 
 /*
