@@ -1,7 +1,9 @@
 /*
  Início Home-------------------------
 */
-
+.body{
+    background-color: #262626;
+}
 .logo {
     position: relative;
     width: 10rem;
@@ -185,7 +187,6 @@ Início MenuDiario-------------------------
 
 
 .card-grid-MenuDiario {
-    background-color: rgb(20, 194, 43);
     margin-top: 5%;
     padding-top: 30px;
     margin-left: 10%;
@@ -209,7 +210,6 @@ Início MenuDiario-------------------------
     position: relative;
 }
 .card-MenuDiario:nth-child(2n){
-    background-color: rgb(243, 14, 7);
     top:70%;
 
 }
@@ -226,19 +226,18 @@ Início MenuDiario-------------------------
 
 .card-body-MenuDiarioLink{
     text-align: center;
-    margin-top: 50%;
+    margin-top: 0%;
 }
 
 .card-body-MenuDiario > img {
     display: block;
     width: 100%;
-    max-height: 150px;
+    height: 250px;
     aspect-ratio: 16 / 9;
     object-fit: cover;
 }
 
 .card-footer-MenuDiario{
-    margin-top: 2rem;
     text-align: center;
      
 }
