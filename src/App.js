@@ -1,5 +1,4 @@
-import DisplayDiario from "./Pages/DisplayDiario";
-import DisplayEmocoes from "./Pages/DisplayEmocoes";
+
 import Home from "./Pages/Home";
 import HomeMenu from "./Pages/HomeMenu";
 import MenuDiario from "./Pages/MenuDiario";
@@ -24,9 +23,6 @@ function App() {
 
       <Route path = "/MenuEmocoes" element = {<MenuEmocoes />} />
 
-      <Route path = "/MenuDiario/:productId" element = {<DisplayDiario />} />
-
-      <Route path = "/DisplayEmocoes" element = {<DisplayEmocoes />} />
 
 
     </Routes>
