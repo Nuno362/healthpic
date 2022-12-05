@@ -1,6 +1,6 @@
 import records from "./recordsAçõesDiárias.json"
 import { Link} from "react-router-dom"
-import {useState,useEffect} from 'react'
+import {useState} from 'react'
 
 
 
@@ -34,7 +34,7 @@ function MenuSelector() {
                         return(
                             <div className = "card-MenuDiario" key={item.id}>
                             <div className = "card-body-MenuDiario">
-                                <img src={item.image}/>
+                                <img src={item.image} alt="imagem"/>
                             </div>
                             <div className = "card-footer-MenuDiario">
 
@@ -64,7 +64,7 @@ function MenuSelector() {
                         return(     
                             <div className = "card-MenuDiario" key={item.id}>
                                 <div className = "card-body-MenuDiario">
-                                    <img src={item.image}/>
+                                    <img src={item.image} alt="imagem"/>
                                 </div>
                                 <div className = "card-footer-MenuDiario">
 

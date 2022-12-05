@@ -185,8 +185,11 @@ Início MenuDiario-------------------------
 
 
 .card-grid-MenuDiario {
+    background-color: rgb(20, 194, 43);
+    margin-top: 5%;
     padding-top: 30px;
-    margin-left: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "a b c d e";
@@ -195,15 +198,20 @@ Início MenuDiario-------------------------
 
 .card-MenuDiario{
 
-    background-color: rgb(70, 144, 194);;
+    background-color: rgb(70, 144, 194);
     border: 1px solid #777;
-    width: 150px;
-    height: 150px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     border: none;
     box-shadow: 0 2px 5px 0 rgba(0,0,0, .2);
     overflow: hidden;
     position: relative;
+}
+.card-MenuDiario:nth-child(2n){
+    background-color: rgb(243, 14, 7);
+    top:70%;
+
 }
 
 .card-body-MenuDiario{
@@ -218,7 +226,7 @@ Início MenuDiario-------------------------
 
 .card-body-MenuDiarioLink{
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 50%;
 }
 
 .card-body-MenuDiario > img {
@@ -230,7 +238,7 @@ Início MenuDiario-------------------------
 }
 
 .card-footer-MenuDiario{
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-align: center;
      
 }
@@ -267,106 +275,4 @@ Início MenuDiario-------------------------
 }
 /*
 Fim MenuDiario-----------------------------
-*/
-/*
-Início DisplayDiario-----------------------------
-*/
-
-.active-text-Description{
-
-    color:red;
-}
-
-.text-Description {
-    position:relative;
-    color:blue;
-}
-.text-Description > p {
-    visibility: hidden;
-}
-
-.ajustar {
-    position: relative;
-    top: 23rem;
-    padding-bottom: 2rem;
-
-
-
-}
-.class_cartoes{
-    padding-bottom: 2rem;
-    background-color: blanchedalmond;
-    position: relative;
-}
-.card-Carousel{
-    position: relative;
-    left: 2.8rem;
-    border: 2px solid rgb(2, 2, 2);
-    width: 36.25rem;
-    height: 20rem;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0, .2);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3rem;
-    transform:scale(0.5);
-    transition: 300ms;
-    opacity: 0.5;
-}
-
-.active-card-Carousel{
-    transform: scale(1.1);
-    opacity: 1;
-}
-
-.arrow{
-   border-radius: 50%;
-   padding: 3rem;
-   background-color: rgb(80, 116, 133);
-   position: absolute; 
-   cursor: pointer;
-   z-index: 10;
-}
-
-.arrow svg{
-    transition: color 300ms;
-}
-.arrow svg:hover {
-    color: #788;
-}
-.next {
-    
-    top: 45%;
-    right:26%;
-}
-.prev {
-    top:45%;
-    left: 26%;
-}
-
-.card-top{
- 
-    max-height: 9.4rem;
-    aspect-ratio: 16 / 9;
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-
-}
-.active-card-bottom{
-    position: relative;
-    text-align: center;
-    top:0.5rem;
-    visibility: visible;
-    cursor: pointer;
-    z-index: 30;
-}
-.card-bottom{
-    visibility: hidden;
-    cursor: pointer;
-}
-
-/*
-Fim DisplayDiario-----------------------------
 */
