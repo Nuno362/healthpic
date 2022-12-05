@@ -182,7 +182,7 @@ Início MenuDiario-------------------------
 
 .card-MenuDiario{
 
-    background-color: rgb(70, 144, 194);
+    background-color: #37A4C7;
     border: 1px solid #777;
     width: 320px;
     height: 320px;
@@ -209,7 +209,8 @@ Início MenuDiario-------------------------
 
 .card-body-MenuDiarioLink{
     text-align: center;
-    margin-top: 0%;
+    margin-top: 45%;
+    font-size: 2rem;
 }
 
 .card-body-MenuDiario > img {
@@ -250,7 +251,7 @@ Início MenuDiario-------------------------
     margin-left:10px;
     margin-top: 30px;
     font-size: medium;
-    background-color: rgb(70, 144, 194);
+    background-color: #37A4C7;
     color: white;
     padding: 10px 25px;
     border-radius: 20px;
